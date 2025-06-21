@@ -58,12 +58,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Espirto_Seita_0: 6099666205451187708
+      Espirto_Seita_1: -319562647412441729
+      Espirto_Seita_2: -3305135035088717671
+      Espirto_Seita_3: 6342322586291677134
+      Espirto_Seita_4: -4310345013161360465
+      Espirto_Seita_5: -7869762559430474094
+      Espirto_Seita_6: -8069358168146007281
+      Espirto_Seita_7: -2562462299006189768
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

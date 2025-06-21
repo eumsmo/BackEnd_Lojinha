@@ -7,8 +7,10 @@ public class MovementAuthoring : MonoBehaviour {
 
     class Baker : Baker<MovementAuthoring> {
         public override void Bake(MovementAuthoring authoring) {
+            Entity entity = GetEntity(TransformUsageFlags.Dynamic);
             MovementData movementData = new MovementData(authoring.speed, new float2(1.0f, 0.0f));
-            AddComponent(GetEntity(TransformUsageFlags.Dynamic), movementData);
+            AddComponent(entity, movementData);
+            AddComponent<MovementInitializeTag>(entity);
         }
     }
 }

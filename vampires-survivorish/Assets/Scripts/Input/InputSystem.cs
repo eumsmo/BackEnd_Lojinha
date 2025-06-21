@@ -15,7 +15,6 @@ public partial class InputSystem : SystemBase {
         actions.Enable();
         
         RequireForUpdate<InputData>();
-        Debug.Log("Input System Created");
     }
 
     protected override void OnUpdate() {

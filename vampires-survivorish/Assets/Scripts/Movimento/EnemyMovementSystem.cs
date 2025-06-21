@@ -2,8 +2,10 @@ using UnityEngine;
 using Unity.Entities;
 using Unity.Transforms;
 using Unity.Mathematics;
+using Unity.Physics;
 
 public partial struct EnemyMovementSystem : ISystem {
+    
     private EntityManager entityManager;
     private Entity playerEntity;
     
@@ -17,12 +19,12 @@ public partial struct EnemyMovementSystem : ISystem {
         playerEntity = SystemAPI.GetSingletonEntity<PlayerData>();
         LocalTransform playerTransform = entityManager.GetComponentData<LocalTransform>(playerEntity);
         
-        foreach (var (enemyTransform, enemyMovement) in SystemAPI.Query<RefRW<LocalTransform>, RefRO<MovementData>>().WithNone<PlayerData>()) {
+        foreach (var (enemyTransform, enemyMovement) in SystemAPI.Query<RefRO<LocalTransform>, RefRW<MovementData>>().WithNone<PlayerData>()) {
             float3 playerPosition = playerTransform.Position;
-            float3 enemyPosition = enemyTransform.ValueRW.Position;
+            float3 enemyPosition = enemyTransform.ValueRO.Position;
             float2 directionToPlayer = math.normalize(playerPosition.xy - enemyPosition.xy);
 
-            enemyTransform.ValueRW.Position += new float3(directionToPlayer * enemyMovement.ValueRO.speed * SystemAPI.Time.DeltaTime, 0f);
+            enemyMovement.ValueRW.direction = directionToPlayer;
         }
     }
 

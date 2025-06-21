@@ -9,8 +9,9 @@ public class PlayerDataAuthoring : MonoBehaviour {
 
     class Baker : Baker<PlayerDataAuthoring> {
         public override void Bake(PlayerDataAuthoring authoring) {
+            Entity entity = GetEntity(TransformUsageFlags.Dynamic);
             PlayerData playerData = new PlayerData(authoring.health, authoring.maxHealth, authoring.xp, authoring.coins);
-            AddComponent(GetEntity(TransformUsageFlags.Dynamic), playerData);
+            AddComponent(entity, playerData);
         }
     }
 }
