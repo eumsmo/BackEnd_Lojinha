@@ -44,6 +44,12 @@ TextureImporter:
   - first:
       213: 6534569371529485915
     second: Personagem_13
+  - first:
+      213: -2651642842336973948
+    second: Personagem_14
+  - first:
+      213: -7986259568505249676
+    second: Personagem_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -208,9 +214,9 @@ TextureImporter:
       name: Personagem_3
       rect:
         serializedVersion: 2
-        x: 1607
+        x: 1655
         y: 511
-        width: 250
+        width: 202
         height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -232,7 +238,7 @@ TextureImporter:
         serializedVersion: 2
         x: 2119
         y: 511
-        width: 370
+        width: 250
         height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -252,9 +258,9 @@ TextureImporter:
       name: Personagem_5
       rect:
         serializedVersion: 2
-        x: 2639
+        x: 2631
         y: 511
-        width: 354
+        width: 370
         height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -274,9 +280,9 @@ TextureImporter:
       name: Personagem_6
       rect:
         serializedVersion: 2
-        x: 3143
+        x: 3151
         y: 511
-        width: 370
+        width: 354
         height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -298,7 +304,7 @@ TextureImporter:
         serializedVersion: 2
         x: 3655
         y: 511
-        width: 250
+        width: 370
         height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -318,9 +324,9 @@ TextureImporter:
       name: Personagem_8
       rect:
         serializedVersion: 2
-        x: 79
+        x: 71
         y: 0
-        width: 354
+        width: 250
         height: 489
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -442,6 +448,50 @@ TextureImporter:
       bones: []
       spriteID: b5e9926c8347faa50800000000000000
       internalID: 6534569371529485915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personagem_14
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 0
+        width: 346
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b2c4742e8733bd0800000000000000
+      internalID: -2651642842336973948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personagem_15
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 0
+        width: 354
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4702e274c3b1b2190800000000000000
+      internalID: -7986259568505249676
       vertices: []
       indices: 
       edges: []
