@@ -82,12 +82,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -509,7 +509,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Personagem_0: -7501778473976659587
+      Personagem_1: -5474501469788244867
+      Personagem_10: -8840467898546309861
+      Personagem_11: -5197617883074779432
+      Personagem_12: 609909039143518307
+      Personagem_13: 6534569371529485915
+      Personagem_2: 5985324816913153986
+      Personagem_3: -4103437087479778593
+      Personagem_4: 7700747892506411726
+      Personagem_5: -5074991419491846861
+      Personagem_6: 119723862632371287
+      Personagem_7: 3069208646073774518
+      Personagem_8: -853299449586930918
+      Personagem_9: 3920698653494930242
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

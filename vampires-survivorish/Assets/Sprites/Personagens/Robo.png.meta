@@ -100,12 +100,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -659,7 +659,29 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Robo_0: 8985410025426860867
+      Robo_1: -5508454326826595896
+      Robo_10: -2261420964722299584
+      Robo_11: -623727858689779493
+      Robo_12: -6693783836155475648
+      Robo_13: 328971976370682334
+      Robo_14: -3524327569129985605
+      Robo_15: 6063374117624945046
+      Robo_16: 2387768811184997507
+      Robo_17: 6911718018930592762
+      Robo_18: -3361358202084974108
+      Robo_19: -8310468952063615218
+      Robo_2: 4625075042377133775
+      Robo_20: 2285785171969144617
+      Robo_21: 66445442840905666
+      Robo_3: -6804344519349630874
+      Robo_4: 5529783699102270085
+      Robo_5: 4111318466570220354
+      Robo_6: -2415464962284403170
+      Robo_7: -1083147988018792156
+      Robo_8: 4741457157910687373
+      Robo_9: -5004885411636678842
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

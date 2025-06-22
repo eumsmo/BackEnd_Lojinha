@@ -62,10 +62,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3281d56f2725c974aaa9bf15c05067a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  maxHealth: 100
   xp: 0
   coins: 0
+  ataqueBasicoPrefab: {fileID: 7537262447711509172, guid: ca1bf4ce676f4b044b974fc586debd8d, type: 3}
+  attackCooldown: 0.5
+  playerUIPrefab: {fileID: 8695159000523059998, guid: 8b979be3ce700924a972f27579586ab2, type: 3}
 --- !u!135 &8890259678575275592
 SphereCollider:
   m_ObjectHideFlags: 0

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cenario_01_0: 2586405146112293724
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
