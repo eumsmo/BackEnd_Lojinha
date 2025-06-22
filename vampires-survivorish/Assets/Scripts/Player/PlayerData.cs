@@ -14,25 +14,6 @@ public struct PlayerData : IComponentData {
     }
 }
 
-public struct PlayerAttackData : IComponentData {
-    public Entity attackPrefab;
-    public float attackCooldown;
-    public float attackSpeed;
-    public float3 detectionRange;
-    public CollisionFilter attackCollisionFilter;
-}
-
-public struct PlayerAttackCooldown : IComponentData, IEnableableComponent {
-    public float timeLeft;
-
-    public PlayerAttackCooldown(float timeLeft) {
-        this.timeLeft = timeLeft;
-    }
-}
-
-public struct PlayerAttackTag : IComponentData {}
-
-
 public struct PlayerUICanvas : ICleanupComponentData {
     public UnityObjectRef<Transform> canvasTransform;
     public UnityObjectRef<Slider> healthSlider;

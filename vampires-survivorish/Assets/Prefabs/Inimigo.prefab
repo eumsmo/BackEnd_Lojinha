@@ -114,6 +114,7 @@ GameObject:
   - component: {fileID: 2057248893170886373}
   - component: {fileID: 8478220372417686232}
   - component: {fileID: 7558734629449118531}
+  - component: {fileID: 4988102162835034584}
   m_Layer: 7
   m_Name: Inimigo
   m_TagString: Untagged
@@ -149,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 195cdd88ff0c2704db3ddc31891eccc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 4
 --- !u!135 &5815253975918339793
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -210,7 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17b7c512c3fd40c459168cc86759b285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 3
 --- !u!114 &8478220372417686232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9a275621e6e3364ca00c06f702ef6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 3
+  damage: 7
   cooldown: 0.5
 --- !u!114 &7558734629449118531
 MonoBehaviour:
@@ -237,3 +238,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3280c3ee5f3f368498a8fc59210f2824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collidesWithLayer:
+    serializedVersion: 2
+    m_Bits: 321
+--- !u!114 &4988102162835034584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4013511898774244924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e3225abea7bcb4c9c1a87b7ef51cb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropPrefab: {fileID: 8534264615089850363, guid: 9d6bb952d608aba4fa08ef6b9c31cdcd, type: 3}
