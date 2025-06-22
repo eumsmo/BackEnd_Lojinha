@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 53f3fec5e8003ae4da69579ad9c3cbaa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6931673336580434079
+    second: Seta_Mouse_0
+  - first:
+      213: -1808748488121146668
+    second: Seta_Mouse_1
+  - first:
+      213: 4503611410180958823
+    second: Seta_Mouse_2
+  - first:
+      213: 6489944104139667421
+    second: Seta_Mouse_3
+  - first:
+      213: -5469414073904413547
+    second: Seta_Mouse_4
+  - first:
+      213: -589363205743450381
+    second: Seta_Mouse_5
+  - first:
+      213: 5546759277409409483
+    second: Seta_Mouse_6
+  - first:
+      213: 799461535525841663
+    second: Seta_Mouse_7
+  - first:
+      213: 2254188428741082530
+    second: Seta_Mouse_8
+  - first:
+      213: -5249746691241195594
+    second: Seta_Mouse_9
+  - first:
+      213: -3238344762336535889
+    second: Seta_Mouse_10
+  - first:
+      213: -9030393924945087817
+    second: Seta_Mouse_11
+  - first:
+      213: -548132427453897393
+    second: Seta_Mouse_12
+  - first:
+      213: -8687408395979577653
+    second: Seta_Mouse_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Seta_Mouse_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 79
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167931273dfbdcf90800000000000000
+      internalID: -6931673336580434079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta_Mouse_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 83
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2a38d45d806e6e0800000000000000
+      internalID: -1808748488121146668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta_Mouse_2
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 83
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a6b3667ba008e30800000000000000
+      internalID: 4503611410180958823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta_Mouse_3
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 83
+        width: 78
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7b26b07c9e01a50800000000000000
+      internalID: 6489944104139667421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta_Mouse_4
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 83
+        width: 78
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594c763c0ecb814b0800000000000000
+      internalID: -5469414073904413547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta_Mouse_5
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 83
+        width: 78
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6e9f5794922d7f0800000000000000
+      internalID: -589363205743450381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta_Mouse_6
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 83
+        width: 78
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc91790cc2c0afc40800000000000000
+      internalID: 5546759277409409483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta_Mouse_7
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 83
+        width: 78
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa2b94e702481b00800000000000000
+      internalID: 799461535525841663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta_Mouse_8
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 71
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad78e7ce6c784f10800000000000000
+      internalID: 2254188428741082530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta_Mouse_9
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 71
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b749cbd2372527b0800000000000000
+      internalID: -5249746691241195594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta_Mouse_10
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 71
+        width: 82
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa1fac98961f03d0800000000000000
+      internalID: -3238344762336535889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta_Mouse_11
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 71
+        width: 82
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b27dc102989da280800000000000000
+      internalID: -9030393924945087817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta_Mouse_12
+      rect:
+        serializedVersion: 2
+        x: 2911
+        y: 59
+        width: 82
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45ecbb1674a468f0800000000000000
+      internalID: -548132427453897393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seta_Mouse_13
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 59
+        width: 74
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc624ea7710207780800000000000000
+      internalID: -8687408395979577653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Seta_Mouse_0: -6931673336580434079
+      Seta_Mouse_1: -1808748488121146668
+      Seta_Mouse_10: -3238344762336535889
+      Seta_Mouse_11: -9030393924945087817
+      Seta_Mouse_12: -548132427453897393
+      Seta_Mouse_13: -8687408395979577653
+      Seta_Mouse_2: 4503611410180958823
+      Seta_Mouse_3: 6489944104139667421
+      Seta_Mouse_4: -5469414073904413547
+      Seta_Mouse_5: -589363205743450381
+      Seta_Mouse_6: 5546759277409409483
+      Seta_Mouse_7: 799461535525841663
+      Seta_Mouse_8: 2254188428741082530
+      Seta_Mouse_9: -5249746691241195594
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
