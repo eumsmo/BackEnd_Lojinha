@@ -4,6 +4,7 @@ using Unity.Transforms;
 using Unity.Mathematics;
 using Unity.Physics;
 
+
 public partial struct EnemyMovementSystem : ISystem {
     
     private EntityManager entityManager;
@@ -16,6 +17,11 @@ public partial struct EnemyMovementSystem : ISystem {
     [Unity.Burst.BurstCompile]
     public void OnUpdate(ref SystemState state) {
         entityManager = state.EntityManager;
+
+        if (!SystemAPI.HasSingleton<PlayerData>()) {
+            return; // Exit if there is no player entity
+        }
+        
         playerEntity = SystemAPI.GetSingletonEntity<PlayerData>();
         LocalTransform playerTransform = entityManager.GetComponentData<LocalTransform>(playerEntity);
         

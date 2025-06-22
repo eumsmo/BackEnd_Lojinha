@@ -111,6 +111,9 @@ GameObject:
   - component: {fileID: 2096201845207500296}
   - component: {fileID: 5815253975918339793}
   - component: {fileID: 5323557413840394521}
+  - component: {fileID: 2057248893170886373}
+  - component: {fileID: 8478220372417686232}
+  - component: {fileID: 7558734629449118531}
   m_Layer: 7
   m_Name: Inimigo
   m_TagString: Untagged
@@ -163,7 +166,7 @@ SphereCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.26
@@ -195,3 +198,42 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
+--- !u!114 &2057248893170886373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4013511898774244924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b7c512c3fd40c459168cc86759b285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+--- !u!114 &8478220372417686232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4013511898774244924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9a275621e6e3364ca00c06f702ef6aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 3
+  cooldown: 0.5
+--- !u!114 &7558734629449118531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4013511898774244924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3280c3ee5f3f368498a8fc59210f2824, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
