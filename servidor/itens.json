@@ -1,0 +1,40 @@
+{
+    "itens": [
+        {
+            "tipo": "Arma",
+            "nome": "Interacao",
+            "descricao": "Um artefato de outra realidade, usado para moldar o mundo.",
+            "icone": "mouse",
+            "preco": 5
+        },
+        {
+            "tipo": "Instantaneo",
+            "nome": "Remendo",
+            "descricao": "Um coração remendado para as feridas da vida.",
+            "icone": "coracao",
+            "preco": 5
+        },
+        {
+            "tipo": "Passivo",
+            "nome": "Pressa",
+            "descricao": "As botas batidas que te levam mais longe.",
+            "icone": "bota",
+            "preco": 5
+        },
+        {
+            "tipo": "Passivo",
+            "nome": "Vontade",
+            "descricao": "A força que te impulsiona a combater seus problemas.",
+            "icone": "faca",
+            "preco": 5
+        },
+        {
+            "tipo": "Passivo",
+            "nome": "Introspecto",
+            "descricao": "A armadura que te protege dos perigos do mundo.",
+            "icone": "calice",
+            "preco": 5
+        }
+    ],
+    "quantidade": 5
+}

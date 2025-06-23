@@ -296,7 +296,6 @@ GameObject:
   - component: {fileID: 313803846}
   - component: {fileID: 313803848}
   - component: {fileID: 313803847}
-  - component: {fileID: 313803849}
   m_Layer: 0
   m_Name: Loja
   m_TagString: Untagged
@@ -362,24 +361,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 313803845}
   m_CullTransparentMesh: 1
---- !u!114 &313803849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 313803845}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24c93f934b21d6b4e89e5200d3606b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slots:
-  - {fileID: 1571728014241848385}
-  - {fileID: 517752313}
-  - {fileID: 226921107}
-  descricaoTxt: {fileID: 1995012490}
-  precoReset: 10
 --- !u!1 &473712061
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,13 +1512,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 313803845}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1129531705}
+        m_TargetAssemblyTypeName: LojaUI, Assembly-CSharp
+        m_MethodName: ForcarResetItens
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1748,6 +1729,7 @@ GameObject:
   - component: {fileID: 1129531702}
   - component: {fileID: 1129531701}
   - component: {fileID: 1129531704}
+  - component: {fileID: 1129531705}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -1851,8 +1833,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7b2ec48b77f5f94b90613ce05c14fa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lojaUI: {fileID: 313803849}
+  lojaUI: {fileID: 1129531705}
   xpText: {fileID: 1921002086}
+--- !u!114 &1129531705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129531699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c93f934b21d6b4e89e5200d3606b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lojaPanel: {fileID: 313803845}
+  slots:
+  - {fileID: 1571728014241848385}
+  - {fileID: 517752313}
+  - {fileID: 226921107}
+  descricaoTxt: {fileID: 1995012490}
+  resetQuantidadeTxt: {fileID: 1050735441}
+  precoResetProgression: 1.5
+  precoReset: 10
+  linkBase: localhost:80
+  linkVitrine: /vitrine.php
+  linkComprar: /comprar.php
 --- !u!224 &1189268947 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5268323945411642760, guid: 34835a3451d155747bb54eeabb8f0b32, type: 3}
@@ -2447,7 +2453,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xp: 0
-  itens: []
 --- !u!4 &2051008518
 Transform:
   m_ObjectHideFlags: 0

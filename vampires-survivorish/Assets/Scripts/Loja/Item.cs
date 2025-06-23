@@ -42,12 +42,16 @@ public struct ItemJSON {
 
 
 [System.Serializable]
-public struct ItemList {
-    public ItemJSON[] itens;
-    public int count;
+public struct ItemResponse {
+    public string status;
+    public string mensagem;
 
-    public ItemList(ItemJSON[] itens) {
-        this.itens = itens;
-        this.count = itens.Length;
-    }
+    // Comprar
+    public int xpRestante;
+    public ItemJSON item;
+
+    // Vitrine
+    public ItemJSON[] itens;
+    public int quantidade;
+
 }

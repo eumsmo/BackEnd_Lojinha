@@ -23,16 +23,6 @@ public class GameManager : MonoBehaviour {
         actions.Enable();
 
         actions.Game.Space.performed += ctx => UIController.loja.ToggleLoja();
-
-        CarregarItens();
-    }
-
-    public Item[] itens;
-    public void CarregarItens() {
-        // carregar itens do json 
-        string json = Resources.Load<TextAsset>("itens").text;
-        itens = ItemAdapter.FromItemJSONArray(JsonUtility.FromJson<ItemList>(json).itens);
-
         UIController.loja.PegarItens(false);
     }
 
