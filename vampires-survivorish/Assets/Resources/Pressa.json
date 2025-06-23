@@ -1,0 +1,7 @@
+{
+    "tipo": "Passivo",
+    "nome": "Pressa",
+    "descricao": "As botas batidas que te levam mais longe.",
+    "icone": "bota",
+    "preco": 100
+}

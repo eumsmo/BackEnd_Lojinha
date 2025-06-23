@@ -1,0 +1,35 @@
+{
+    "itens": [
+        {
+            "tipo": "Arma",
+            "nome": "Interacao",
+            "icone": "mouse",
+            "preco": 5
+        },
+        {
+            "tipo": "Instantaneo",
+            "nome": "Remendo",
+            "icone": "coracao",
+            "preco": 5
+        },
+        {
+            "tipo": "Passivo",
+            "nome": "Pressa",
+            "icone": "bota",
+            "preco": 5
+        },
+        {
+            "tipo": "Passivo",
+            "nome": "Vontade",
+            "icone": "bota",
+            "preco": 5
+        },
+        {
+            "tipo": "Passivo",
+            "nome": "Introspecto",
+            "icone": "bota",
+            "preco": 5
+        }
+    ],
+    "count": 5
+}

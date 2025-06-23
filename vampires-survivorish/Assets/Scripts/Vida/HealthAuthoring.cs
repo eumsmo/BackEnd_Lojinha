@@ -20,10 +20,12 @@ public class HealthAuthoring : MonoBehaviour {
 public struct HealthData : IComponentData {
     public uint health;
     public uint maxHealth;
+    public uint defense;
 
     public HealthData(uint maxHealth) {
         this.health = maxHealth;
         this.maxHealth = maxHealth;
+        this.defense = 0;
     }
 }
 
@@ -43,10 +45,12 @@ public partial struct ApplyDamageSystem : ISystem {
                 totalDamage += d.damage;
             }
 
+            totalDamage = health.ValueRO.defense > totalDamage ? 0 : totalDamage - health.ValueRO.defense;
+
             damage.Clear();
 
             if (totalDamage >= health.ValueRO.health) {
-                totalDamage = 0;
+                health.ValueRW.health = 0;
                 state.EntityManager.SetComponentEnabled<DestroyableTag>(entity, true);
             } else {
                 health.ValueRW.health -= totalDamage;

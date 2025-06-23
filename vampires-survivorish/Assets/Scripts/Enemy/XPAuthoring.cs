@@ -89,7 +89,7 @@ public partial struct UpdateUIXPSystem : ISystem {
 
     public void OnUpdate(ref SystemState state) {
         foreach (var (playerData, updateUIXP) in SystemAPI.Query<RefRW<PlayerData>, EnabledRefRW<UpdateXPUI>>()) {
-            UIController.Instance.UpdateXP(playerData.ValueRW.xp);
+            GameManager.instance.SetXP(playerData.ValueRW.xp);
             updateUIXP.ValueRW = false;
         }
     }

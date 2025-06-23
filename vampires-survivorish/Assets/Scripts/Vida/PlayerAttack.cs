@@ -9,6 +9,7 @@ public struct PlayerAttackData : IComponentData {
     public Entity attackPrefab;
     public float attackCooldown;
     public float attackSpeed;
+    public uint damage;
     public float projectileDuration;
     public float3 detectionRange;
     public CollisionFilter attackCollisionFilter;
@@ -93,6 +94,10 @@ public partial struct PlayerAttackSystem : ISystem {
         entityManager.AddComponentData(newAttack, new PlayerAttackTag());
         entityManager.AddComponentData(newAttack, new ProjectileData(playerAttackData.attackSpeed));
         entityManager.AddComponentData(newAttack, new AutoDestruct(playerAttackData.projectileDuration));
+
+        AttackData attackData = entityManager.GetComponentData<AttackData>(newAttack);
+        attackData.damage = playerAttackData.damage;
+        entityManager.SetComponentData(newAttack, attackData);
 
         entityManager.SetComponentEnabled<PlayerAttackCooldown>(playerEntity, true);
         var attackCooldownNovo = entityManager.GetComponentData<PlayerAttackCooldown>(playerEntity);

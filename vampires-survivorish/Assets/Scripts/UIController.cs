@@ -2,15 +2,18 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class UIController : MonoBehaviour {
-    public static UIController Instance { get; private set; }
+    public static UIController instance { get; private set; }
+    public static LojaUI loja => instance.lojaUI;
+    
+    public LojaUI lojaUI;
 
 
     [Header("HUD")]
     public Text xpText;
 
     void Awake() {
-        if (Instance == null) {
-            Instance = this;
+        if (instance == null) {
+            instance = this;
             DontDestroyOnLoad(gameObject);
         } else {
             Destroy(gameObject);
